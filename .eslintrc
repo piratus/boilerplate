@@ -1,0 +1,47 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6":true
+  },
+  "rules": {
+    "arrow-parens": ["error", "always"],
+    "block-spacing": ["error", "always"],
+    "brace-style": ["error", "stroustrup", { "allowSingleLine": true }],
+    "camelcase": "error",
+    "comma-dangle": ["error", "always-multiline"],
+    "indent": ["error", 2],
+    "prefer-arrow-callback": ["warn"],
+    "prefer-const": ["warn"],
+    "quote-props": ["error", "consistent"],
+    "quotes": ["error", "single", {"avoidEscape": true, "allowTemplateLiterals": true}],
+    "semi": ["error", "never"],
+
+    "react/no-deprecated": "error",
+    "react/self-closing-comp": "error",
+    "react/jsx-boolean-value": ["error", "never"],
+    "react/jsx-closing-bracket-location": "error",
+    "react/jsx-curly-spacing": ["error", "always"],
+    "react/jsx-equals-spacing": ["error", "never"],
+    "react/jsx-first-prop-new-line": ["error", "multiline"],
+    "react/jsx-indent-props": ["error", 2],
+    "react/jsx-key": "error",
+    "react/jsx-no-bind": ["error", {"ignoreRefs": true, "allowArrowFunctions": false}],
+    "react/jsx-pascal-case": "error",
+    "react/jsx-space-before-closing": ["error", "always"],
+    "react/jsx-wrap-multilines": "error"
+  }
+}
