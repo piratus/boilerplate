@@ -1,5 +1,4 @@
 const autoprefixer = require('autoprefixer')
-const path = require('path')
 
 module.exports = {
   module: {
@@ -31,3 +30,4 @@ module.exports = {
     ]
   },
 }
+
